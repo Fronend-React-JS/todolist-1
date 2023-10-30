@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+  }
+  
+  .input-group input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .input-group button {
+    padding: 10px;
+    background-color: rgb(14, 177, 177);
+    color: #fff;
+  }
+  
+  button:hover {
+    transition: all 0.3s;
+    background-color: rgb(5, 104, 104);
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: yellow;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  } 
